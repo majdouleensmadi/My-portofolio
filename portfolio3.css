@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    background-image: url(816688c4c72a4169fec76f541ace0a25.jpg); 
+    background-position: center;
+    background-size: cover;
+
+  }
+   
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 500px;
+    background-size: cover;
+    opacity: 70%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: space-around;
+    border-right: 5px solid;
+    border-top:5px solid ;
+   
+}
+.info{
+    width: 20%;
+
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+   
+    text-align: center;
+  justify-content: space-around;
+  
+  border-radius: 15px;
+ 
+  
+}
+.contactus{
+    display: flex;
+    width: 60%;
+   background-image: url(816688c4c72a4169fec76f541ace0a25.jpg); 
+   background-position: center;
+ background-size: cover ;
+    height: 500px;
+    text-align: center;
+    justify-content: space-between;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    background-color: black;
+    margin-left: 20%;
+    
+
+}
+
+.send{
+    background-color: black;
+    color: rgb(152, 147, 147);
+    width: 30%;
+    height: 30px;
+    margin-left: 30%;
+    border-radius: 5px;
+   
+}
+
+.contpar{
+   
+    color: #c46770;
+}
+.label1{
+    
+    cursor: pointer;
+}
+input{
+    width: 50%;
+    height: 30px;
+  align-self: center;
+  
+}
+.footer{
+
+    width: 100%;
+    background-color: black;
+    height: 80px;
+    text-align: center;
+    margin-top: 1%;
+   
+    color: white;
+   
+}
+
+
+.mediafooter{
+    padding-top: 1%;
+}
+span{
+    color: rgb(219, 99, 99);
+    font-size:large;  
+}
+
+
+
+
+.container-fluid{
+    width: 10%;
+   
+}
+#navbarTogglerDemo02 ul li a{
+    color: rgb(255, 255, 255);
+    font-size:15px;
+     margin-left: 40px; 
+    text-decoration: none;
+    width: 60%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+@media only screen and (max-width:1300px) {
+    .contactus{ 
+    display: flex;
+    flex-direction: column;}
+    .info{width: 100%;}
+     .form{width: 100%;}   
+     }        
+    
+   

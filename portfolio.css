@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+body {    
+    
+    background-image: linear-gradient(to right, black ,rgb(227, 227, 227)); 
+  }
+.container{
+    height: 800px;
+    width:100%;
+     background-image: url("6.jpg");
+      background-size: cover;
+     background-position: center;
+     color: white;
+     
+}
+span{
+    color: rgb(219, 99, 99);
+    font-size: larger;  
+}
+
+.container-fluid{
+    width: 20%;
+   
+}
+#navbarTogglerDemo02 ul li a{
+    color: white;
+    font-size:15px;
+    margin-left: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 40%;
+  
+    
+}
+.aboutme{
+    width: 25%;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    height:400px;
+    padding-top: 20%;
+  
+    font-style: italic;
+    padding-right: 3%;
+    color: black;
+  
+
+}
+.footer{
+
+    width: 100%;
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    /* margin-top: 1%; */
+   
+    color: white;
+   
+}
+
+
+.mediafooter{width: 100%;
+    height: 50px;
+     padding-top: 1%; 
+}
+@media only screen and (max-width:786px) {
+   .aboutme  {color: rgb(136, 12, 12);}
+     span{color: white;} 
+    }
